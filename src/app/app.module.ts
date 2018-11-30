@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 // import {FormsModule} from '@angular/forms';
 import {SearchRequestService} from './search-request.service';
 import {MatMenuModule} from '@angular/material/menu';
+import { UppercasePipe } from './uppercase.pipe';
 
 
 
@@ -22,6 +23,7 @@ import {MatMenuModule} from '@angular/material/menu';
   declarations: [
     AppComponent,
     NavigationComponent,
+    UppercasePipe,
     // GithubComponent,
     // SearchFormComponent,
   ],
