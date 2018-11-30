@@ -10,7 +10,7 @@ import { NgProgressHttpModule } from '@ngx-progressbar/http';
   styleUrls: ['./github.component.css']
 })
 export class GithubComponent implements OnInit {
-   searchMe = 'abdirahman-mahat';
+   searchMe = 'Adeal46';
   githubUser: string;
 
     users: User ;
