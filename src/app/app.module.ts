@@ -14,6 +14,7 @@ import {SearchRequestService} from './search-request.service';
 import {MatMenuModule} from '@angular/material/menu';
 import { UpperCasePipe } from './uppercase.pipe';
 import { HighlightDirective } from './highlight.directive';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -35,7 +36,8 @@ import { HighlightDirective } from './highlight.directive';
       // FormsModule,
       NgProgressModule.forRoot(),
       NgProgressHttpModule.forRoot(),
-      HttpClientModule
+      HttpClientModule,
+      BrowserAnimationsModule
   ],
   providers: [SearchRequestService],
   bootstrap: [AppComponent]
