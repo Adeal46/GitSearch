@@ -6,6 +6,8 @@ import { RepositoriesComponent } from '../repositories/repositories.component';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
 import {SearchFormComponent} from '../search-form/search-form.component';
+import {FormsModule} from '@angular/forms';
+
 
 
 
@@ -27,6 +29,7 @@ const routes: Routes = [
   ],
   declarations: [
     GithubComponent,
+    FormsModule,
     RepositoriesComponent,
     SearchFormComponent,
   ],
