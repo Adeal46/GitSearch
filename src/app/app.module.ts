@@ -9,7 +9,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import {RoutingModule} from './routing/routing.module';
 import { RouterModule } from '@angular/router';
 // import { SearchFormComponent } from './search-form/search-form.component';
-import {FormsModule} from '@angular/forms';
+// import {FormsModule} from '@angular/forms';
 import {SearchRequestService} from './search-request.service';
 import {MatMenuModule} from '@angular/material/menu';
 
@@ -29,7 +29,7 @@ import {MatMenuModule} from '@angular/material/menu';
     BrowserModule,
       RoutingModule,
       RouterModule,
-      FormsModule,
+      // FormsModule,
       NgProgressModule.forRoot(),
       NgProgressHttpModule.forRoot(),
       HttpClientModule
