@@ -12,8 +12,8 @@ import { RouterModule } from '@angular/router';
 // import {FormsModule} from '@angular/forms';
 import {SearchRequestService} from './search-request.service';
 import {MatMenuModule} from '@angular/material/menu';
-import { UppercasePipe } from './uppercase.pipe';
-
+import { UpperCasePipe } from './uppercase.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 
 
@@ -23,7 +23,8 @@ import { UppercasePipe } from './uppercase.pipe';
   declarations: [
     AppComponent,
     NavigationComponent,
-    UppercasePipe,
+    UpperCasePipe,
+    HighlightDirective,
     // GithubComponent,
     // SearchFormComponent,
   ],
