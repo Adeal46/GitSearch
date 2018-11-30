@@ -22,6 +22,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
+    FormsModule,
     CommonModule,
     RouterModule.forRoot(routes),
     NgProgressModule.forRoot(),
@@ -29,7 +30,6 @@ const routes: Routes = [
   ],
   declarations: [
     GithubComponent,
-    FormsModule,
     RepositoriesComponent,
     SearchFormComponent,
   ],
