@@ -33,7 +33,8 @@ export class SearchRequestService {
     }
 
     const promise = new Promise((resolve) => {
-      this.http.get<ApiResponse>('https://api.github.com/users/' + searchName + '?access_token=' + environment.apiKey).toPromise().then(getResponse => {
+      this.http.get<ApiResponse>('https://api.github.com/users/'
+      + searchName + '?access_token=' + environment.apiKey).toPromise().then(getResponse => {
         this.users.name = getResponse.name;
         this.users.html_url = getResponse.html_url;
         this.users.login = getResponse.login;
@@ -57,7 +58,8 @@ export class SearchRequestService {
     }
 
     const myPromise = new Promise((resolve, reject) => {
-      this.http.get<ApiResponse>('https://api.github.com/users/' + searchMe + '/repos?order=created&sort=asc?access_token=' + environment.apiKey).toPromise().then(getRepoResponse => {
+      this.http.get<ApiResponse>('https://api.github.com/users/'
+      + searchMe + '/repos?order=created&sort=asc?access_token=' + environment.apiKey).toPromise().then(getRepoResponse => {
         this.newRepository = getRepoResponse;
         resolve();
       }, error => {

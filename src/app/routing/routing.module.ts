@@ -5,6 +5,8 @@ import { GithubComponent } from '../github/github.component';
 import { RepositoriesComponent } from '../repositories/repositories.component';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
+import {SearchFormComponent} from '../search-form/search-form.component';
+
 
 
 const routes: Routes = [
@@ -26,6 +28,7 @@ const routes: Routes = [
   declarations: [
     GithubComponent,
     RepositoriesComponent,
+    SearchFormComponent,
   ],
   exports: [RouterModule],
 })
