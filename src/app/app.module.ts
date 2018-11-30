@@ -5,7 +5,7 @@ import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { GithubComponent } from './github/github.component';
+// import { GithubComponent } from './github/github.component';
 import {RoutingModule} from './routing/routing.module';
 import { RouterModule } from '@angular/router';
 import { SearchFormComponent } from './search-form/search-form.component';
@@ -22,7 +22,7 @@ import {MatMenuModule} from '@angular/material/menu';
   declarations: [
     AppComponent,
     NavigationComponent,
-    GithubComponent,
+    // GithubComponent,
     SearchFormComponent,
   ],
   imports: [
